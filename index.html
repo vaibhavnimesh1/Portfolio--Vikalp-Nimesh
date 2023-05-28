@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY-PORFOLIO</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/ef0c1d327b.js"
+      <script src="https://kit.fontawesome.com/ef0c1d327b.js" crossorigin="anonymous"></script>
+    </script>
+  </head>
+  <body>
+    <!-- ---------------header------------------------- -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1 style="font-size: px">
+            <span style="font-size: 70px; color: #ff004f">V</span>IKALP.
+          </h1>
+          <!-- <img src="./pic/1.jpg" alt="" class="logo" > -->
+          <ul id="sidemenu">
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#services">PROJECT</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>WEB DEVELOPER</p>
+          <h1>
+            Hi,I'm<span> Vikalp</span><br />
+            From India
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------about me ---------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./pic/2.webp" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1>About Me</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi
+              voluptatum consequatur odit dignissimos placeat. Distinctio,
+              veritatis velit iure magni quam saepe aspernatur. Placeat ratione
+              architecto vitae repellendus eligendi modi, qui veniam voluptatem,
+              beatae mollitia nobis?
+            </p>
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web Development</span><br />Web app Development</li>
+                <li><span>App Development</span><br />Building Android app</li>
+                <li><span>Graphic Designer</span><br />Build and Design</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>1Web Development</span><br />55Web app Development
+                </li>
+                <li><span>App Development</span><br />Building Android app</li>
+                <li><span>Graphic Designer</span><br />Build and Design</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2Web Development</span><br />Web app Development</li>
+                <li><span>App Development</span><br />Building Android app</li>
+                <li><span>Graphic Designer</span><br />Build and Design</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------services---------------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              labore temporibus aut reiciendis nulla deserunt, omnis dolore
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>App Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              labore temporibus aut reiciendis nulla deserunt, omnis dolore
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-comment"></i>
+            <h2>Design Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              labore temporibus aut reiciendis nulla deserunt, omnis dolore
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------portfolio------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <div class="sub-title">
+          <h3>My Work</h3>
+        </div>
+        <div class="work-list">
+          <div class="work">
+            <img src="./pic/10.jpg" alt="" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                saepe officia aut molestias repudiandae
+              </p>
+              <a href="#"> <i class="fas fa-external-link-alt"></i> </a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./pic/5.jpg" alt="" />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                saepe officia aut molestias repudiandae
+              </p>
+              <a href="#"> <i class="fas fa-external-link-alt"></i> </a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./pic/10.jpg" alt="" />
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                saepe officia aut molestias repudiandae
+              </p>
+              <a href="#"> <i class="fas fa-external-link-alt"></i> </a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!-- -----------------contact----------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <div id="contact-me" class="sub-title">Contact Me</div>
+            <p><i class="fas fa-paper-plane"></i>contact@mail.com</p>
+            <p><i class="fas fa-phone"></i>0123456789</p>
+            <div class="social-icons">
+              <a href="#" class="fab fa-facebook"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <a class="btn btn2" id="CV" download href="#">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Enter Your Name" required />
+              <input type="text" name="Name" placeholder="Enter Your Email" required/>
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Your message"
+              ></textarea>
+              <button type="submit" class="btn">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright"">
+      @Copyright By <i class="fa-solid fa-heart"></i> Vikalp Nimesh
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
